@@ -55,7 +55,9 @@
     }
 
     .paragraph-color {
-        font-size: 1rem !important;
+        font-size: .8rem !important;
+        color: nth($color, 1);
+        font-style: italic
     }
 
 }
