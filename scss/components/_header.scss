@@ -1,0 +1,67 @@
+header {
+        width: 100vw;
+        height: 100vh;
+        background: #659999;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, hsla(0, 4%, 11%, 0.637), hsla(286, 46%, 23%, 0.623)),url(../src/multimedia/imagenes/portada.png ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+
+            h1 {
+                display: flex;
+                justify-content: center;
+                font-size: 3.7rem;
+                letter-spacing: 3px;
+                font-family: $font-primary;
+            }
+
+            nav {
+                font-size: .9rem;
+                height: 5rem;
+
+                .logo-width {
+                    width: 6%;
+                    margin-left: 3rem ;
+                }
+
+                .margin-link {
+                    padding-right: 2rem;
+                }
+
+                .color-nav {
+                    padding: 1rem !important;
+                    color: nth($color , 1) !important;
+                }
+
+                .color-nav:hover {
+                    opacity: 40%;
+                    border-bottom: 3px solid nth($color, 1)
+                }
+                    
+             }
+
+             .header-container {
+                 height: 70vh;
+                 color: white;
+
+                 h2 {
+                     padding-top: 3.5rem;
+                     font-size: 1.1rem;
+                     font-weight: lighter;
+                 }
+             } 
+
+             .animation-scrolldown {
+                 color: white;
+                 opacity: 30%;
+             }
+             
+             .wave {
+                position: absolute;
+                bottom: 0;
+                width: 100vw;
+             }
+}
+

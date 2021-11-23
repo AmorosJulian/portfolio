@@ -1,0 +1,16 @@
+@mixin box-values ($paddingX , $paddingY , $marginX , $marginY , $border) {
+    padding-left: $paddingX;
+    padding-right: $paddingX;
+    padding-top: $paddingY;
+    padding-bottom: $paddingY;
+    margin-left: $marginX;
+    margin-right: $marginX;
+    margin-top: $marginY;
+    margin-bottom: $marginY;
+    border: $border;
+}
+
+@mixin wh ($width , $heigth) {
+    width: $width;
+    height: $heigth;
+}

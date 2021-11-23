@@ -1,0 +1,82 @@
+// CONTACT
+.bg-contact {
+    background-color: nth($color, 6 );
+    width: 100%;
+    height: 110vh;
+
+    .container-form {
+        margin-top: 6rem;
+    }
+
+    .w-form, .w-info-contact {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .tittle-contact {
+        text-align: center;
+        font-size: 1.5rem !important;
+        font-weight: bold;
+        margin: .5rem auto;
+    }
+    
+    .p-name {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    .p-location {
+        font-size: 1rem;
+        margin: 1rem auto;
+        text-align: center;
+    }
+    
+    .p-email {
+        font-size: 1rem;
+        margin: 2rem auto;
+        text-align: center;
+    }
+    
+    .social-media {
+        margin: 1rem 2rem;
+        text-decoration: none;
+        color: nth($color, 7 );
+        transition: .6s;
+    }
+    
+    .social-media:hover {
+        transform: scale(1.2);
+        transition: all .1s ease;
+        color: nth($color, 8 );
+    }
+    
+    .input-name, .input-lastname {
+        color: white;
+        width: 100%;
+        height: 2.5rem;
+        margin-bottom: 2rem;
+        background: black;
+        opacity: 70%;
+        box-shadow: 0 8PX 10PX -4PX nth($color, 13 );
+        border-radius: 5px;
+    }
+    
+    .text-area {
+        width: 100%;
+        height: 10rem;
+        background: black;
+        opacity: 70%;
+        box-shadow: 0 8PX 10PX -4PX nth($color, 13 );
+        border-radius: 5px;
+    }
+
+
+}
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+// MOBILE
+@media screen and (max-width: 480px) {
+    // HEADER
+    #tittle-header { font-size: 1.5rem; text-align: center; }
+    #subtittle-header { font-size: .8rem; text-align: center; flex-wrap: wrap; width: 80%; margin: 0 auto; }
+
+    .p-scrolldown  { font-size: .7rem !important; }
+    .animation-scrolldown { width: 10%; }
+
+    // MAIN
+    #sectionAbout {
+        div {
+                div {
+                        .im-julian { font-size: 2.5rem !important; }
+                        .un-placer-conocerte { font-size: 1.5rem !important; }
+                        p { font-size: 1rem !important; }
+                }
+        }
+
+        div {
+                .photo-me { width: 10rem; height: 10rem; }
+        }
+    }
+
+    // MAIN - PORTFOLIO 
+    #sectionPortfolio {
+        h2 { font-size: 1rem !important;}
+
+        .grid-container { display: flex !important; flex-direction: column;}
+    }
+
+    // MAIN MY-BG
+    #my-bg {
+        div {
+                div {
+                        div {
+                                h2 {
+                                    font-size: 1rem !important;
+                                }
+                        }
+                        div {
+                                p {
+                                    font-size: .8rem !important;
+                                }
+                        }
+                }
+        }
+    }
+
+    // MAIN - CONTACT
+    #sectionContact {
+        div {
+                .container-form {
+                        .w-info-contact {
+                            h3, p { font-size: .7rem !important; }
+                        }
+
+                        .w-form { width: 80%; padding-top: 1rem; height: 70vh; }
+                }
+        }
+    }
+}

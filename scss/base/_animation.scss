@@ -1,0 +1,41 @@
+// SCROLL DOWN IN HEADER 
+.animation-scrolldown {
+    animation: scrolldown 4s infinite;
+}
+@keyframes scrolldown {
+    0% { transform: scale(.7); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(.7); }
+}
+
+// SKILLS
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+@keyframes sass {
+    0% { width: 0; }
+    100% { width: 75%; }
+}
+@keyframes bootstrap {
+    0% { width: 0; }
+    100% { width: 60%; }
+}
+
+// WAVE CONTACT
+.wave-animation {
+    width: 100%;
+    height: 100px;
+    background-image: url(../src/multimedia/imagenes/wave.png);
+    background-size: 1000px 100px;
+    animation: waveFooter 7s linear infinite;
+}
+
+@keyframes waveFooter {
+    0% { background-position-x: 0; }
+    100% { background-position-x: -1000px; }
+}

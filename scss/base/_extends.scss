@@ -1,0 +1,19 @@
+// DISPLAY FLEX
+%flex {
+    display: flex;
+    justify-content: center;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// BORDES COLUMNAS SECTION ABOUT
+%border-column {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-right-width: 0;
+    padding: 1em 1em;
+}
