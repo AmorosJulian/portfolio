@@ -256,9 +256,33 @@ header .wave {
 #poderes .div-border h2 {
   margin: 20px auto;
 }
+#poderes .parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+}
+#poderes .div1 {
+  grid-area: 1/1/2/2;
+}
+#poderes .div2 {
+  grid-area: 1/2/2/3;
+}
+#poderes .div3 {
+  grid-area: 1/3/2/4;
+}
+#poderes .div4 {
+  grid-area: 1/4/2/5;
+}
+#poderes .div5 {
+  grid-area: 1/5/2/6;
+}
+#poderes .div6 {
+  grid-area: 1/6/2/7;
+}
 #poderes .box-skill {
   border: 1px solid black;
-  width: 4rem;
+  width: 1fr;
   height: 4rem;
   margin: 1.5rem auto;
 }
