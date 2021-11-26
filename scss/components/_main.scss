@@ -20,52 +20,11 @@
     }
 }
 
-// COLUMNS
-.flex-container-column {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2em 0;
 
-    div {
-        width: 300px;
-        height: 430px;
-        border: 1px solid nth($color , 14);
-        text-align: center;
-    }
-
-    .column-left {
-        @extend %border-column;
-    }
-
-    .column-right {
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-left-width: 0;
-        padding: 1em 1em;
-    }
-
-    .column-center {
-        padding: 1em 1em;
-    }
-
-    svg {
-        color:nth($color, 4 );
-        margin-top: 1.3em;
-    }
-
-    .paragraph-color {
-        font-size: .8rem !important;
-        color: nth($color, 1);
-        font-style: italic
-    }
-
-}
-
-// PRUEBA
+// DEVELOPER SKILL
 #poderes {
     .div-border {
-        margin-top: 150px;
+        margin-top: 100px;
         margin-bottom: 10px;
         padding: 20px;
         box-shadow: 0 -25px 50px -25px rgba(160, 160, 160, 0.515);
@@ -99,73 +58,12 @@
 }
 
 
-// SKILLS
-#sectionSkills {
-
-        @include box-values (0,0,auto,5rem,0);
-        width: 60%;
-                
-
-        
-        .w-skills {
-                ul { 
-                    list-style: none;
-                    li {
-                        margin: 3rem;
-                        h3 {
-                            font-size: 1rem;
-                        }
-                    }
-                }
-
-                .change-bar {
-                    background: nth($color, 14 );
-                    display: block;
-                    height: 2px;
-                    border-radius: 3px;
-                    overflow: hidden;
-                    box-shadow: 0 0 10px nth($color, 12 );
-
-                    span { 
-                        @include wh (90%,2px);
-                        // height: 2px;
-                        float: left;
-                        background: nth($color, 12 );
-                        // width: 90%;
-                    }
-
-                    .html-bar {
-                        
-
-                        width: 90%;
-                        animation: html 2s;
-                    }
-
-                    .css-bar {
-                        width: 80%;
-                        animation: css 2s;
-                    }
-
-                    .sass-bar {
-                        width: 75%;
-                        animation: sass 2s;
-                    }
-
-                    .bootstrap-bar {
-                        width: 60%;
-                        animation: bootstrap 2s;
-                    }
-                }
-
-        }
-}
-
 // PORFTOLIO
 #sectionPortfolio {
     .tittle-portfolio {
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: nth($color,5 );
-        margin: 8rem auto;
+        margin: 4rem auto;
     }
 
     .grid-container {
@@ -221,9 +119,21 @@
     }
 }
 
+// CARDS
+.tittle-cards {
+    font-size: 1.5rem;
+    color: nth($color,5 );
+    margin: 4rem auto;
+}
+.card {
+    margin: 0 2rem;
+    padding: 1rem;
+    border: none;
+}
+
 // WORK TOGETHER
 #work-together1 {
-    margin-top: 12rem;
+    margin-top: 8rem;
     font-size: 2rem;
     font-weight: bold;
     color: nth($color,11 );
@@ -234,7 +144,7 @@
 }
 .button-talk {
     color: nth($color,12 );
-    margin: 4rem auto;
+    margin: 2rem auto;
     font-size: 1.3rem;
     @include wh (200px , 50px);
     // width: 200px;
