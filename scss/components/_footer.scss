@@ -57,22 +57,37 @@
         width: 100%;
         height: 2.5rem;
         margin-bottom: 2rem;
-        background: whitesmoke;
+        background: nth($color, 13 );;
         opacity: 70%;
-        box-shadow: 0 8PX 10PX -4PX nth($color, 13 );
+        box-shadow: 0 8PX 10PX -4PX nth($color, 9 );
+        border: 1px solid nth($color, 13 );
         border-radius: 0px;
     }
     
     .text-area {
         width: 100%;
         height: 10rem;
-        background: whitesmoke;
+        background: nth($color, 13 );;
         opacity: 70%;
-        box-shadow: 0 8PX 10PX -4PX nth($color, 13 );
+        box-shadow: 0 8PX 10PX -4PX nth($color, 9 );
+        border: 1px solid nth($color, 13 );
         border-radius: 0px;
     }
 
+    .copyright p{
+        position: absolute;
+        bottom: 1rem;
+        margin: 0 auto;
+        color: white
+    }
 
+}
+
+// COPYRIGHT
+.copyright {
+    width: 100vw;
+    height: 10vh;
+    color: nth($color, 9 );
 }
 
 
