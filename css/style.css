@@ -249,6 +249,16 @@ header .wave {
   margin: 1.5rem auto;
 }
 
+.box-tittle-business {
+  margin-top: 180px;
+  margin-bottom: 100px;
+  padding: 20px;
+  box-shadow: 0 -25px 50px -25px rgba(160, 160, 160, 0.515);
+}
+.box-tittle-business h3 {
+  margin: 20px auto;
+}
+
 #sectionPortfolio .tittle-portfolio {
   font-size: 1.5rem;
   color: #550735;
