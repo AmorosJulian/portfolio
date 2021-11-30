@@ -196,6 +196,9 @@ header .wave {
   font-size: 4.5rem !important;
   font-family: "Roboto", sans-serif;
 }
+#sectionAbout .im-julian {
+  padding-top: 4rem;
+}
 #sectionAbout p {
   font-size: 1rem !important;
 }
@@ -253,16 +256,21 @@ header .wave {
   margin-top: 180px;
   margin-bottom: 100px;
   padding: 20px;
-  box-shadow: 0 -25px 50px -25px rgba(160, 160, 160, 0.515);
+  background-color: #c0fdff;
+  box-shadow: 0 0 20px 0 rgba(160, 160, 160, 0.515);
 }
 .box-tittle-business h3 {
   margin: 20px auto;
+}
+.box-tittle-business h3 b {
+  color: #f74865;
 }
 
 #sectionPortfolio .tittle-portfolio {
   font-size: 1.5rem;
   color: #550735;
-  margin: 4rem auto;
+  margin: 1rem auto;
+  padding: 4rem 0;
 }
 #sectionPortfolio .grid-container {
   width: 90%;

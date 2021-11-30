@@ -5,6 +5,9 @@
         font-size: 4.5rem !important;
         font-family: $font-secundary;
     }
+    .im-julian {
+        padding-top: 4rem;
+    }
     p {
         font-size: 1rem !important;
     }
@@ -63,10 +66,14 @@
     margin-top: 180px;
     margin-bottom: 100px;
     padding: 20px;
-    box-shadow: 0 -25px 50px -25px rgba(160, 160, 160, 0.515);
+    background-color: nth($color, 6 );
+    box-shadow: 0 0 20px 0 rgba(160, 160, 160, 0.515);
 
     h3 {
         margin: 20px auto;
+        b {
+            color: nth($color, 12 );
+        }
     }
 }
 
@@ -76,7 +83,8 @@
     .tittle-portfolio {
         font-size: 1.5rem;
         color: nth($color,5 );
-        margin: 4rem auto;
+        margin: 1rem auto;
+        padding: 4rem 0;
     }
 
     .grid-container {
