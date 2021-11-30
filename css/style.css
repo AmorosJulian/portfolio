@@ -79,7 +79,7 @@ html :root {
   }
 
   #subtittle-header {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
     flex-wrap: wrap;
     width: 80%;
@@ -101,7 +101,7 @@ html :root {
     font-size: 1.5rem !important;
   }
   #sectionAbout div div p {
-    font-size: 2rem !important;
+    font-size: 1rem !important;
   }
   #sectionAbout div .photo-me {
     width: 10rem;
