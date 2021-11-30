@@ -421,20 +421,30 @@ header .wave {
   width: 100%;
   height: 2.5rem;
   margin-bottom: 2rem;
-  background: lightgray;
+  background: rgba(0, 0, 0, 0.6);
   opacity: 70%;
   box-shadow: 0 8PX 10PX -4PX rgba(0, 0, 0, 0.6);
   border: 1px solid lightgray;
   border-radius: 0px;
 }
+.bg-contact .input-name::placeholder {
+  color: #ffffff;
+}
+.bg-contact .input-lastname::placeholder {
+  color: #ffffff;
+}
+.bg-contact .text-area::placeholder {
+  color: #ffffff;
+}
 .bg-contact .text-area {
   width: 100%;
   height: 10rem;
-  background: lightgray;
+  background: rgba(0, 0, 0, 0.6);
   opacity: 70%;
   box-shadow: 0 8PX 10PX -4PX rgba(0, 0, 0, 0.6);
   border: 1px solid lightgray;
   border-radius: 0px;
+  color: #ffffff;
 }
 .bg-contact .button-talk-form {
   color: #f74865;
