@@ -124,7 +124,7 @@ html :root {
   }
 
   #sectionContact div .container-form .w-info-contact h3, #sectionContact div .container-form .w-info-contact p {
-    font-size: 0.7rem !important;
+    font-size: 1rem !important;
   }
   #sectionContact div .container-form .w-form {
     width: 80%;
