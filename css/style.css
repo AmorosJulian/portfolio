@@ -101,7 +101,7 @@ html :root {
     font-size: 1.5rem !important;
   }
   #sectionAbout div div p {
-    font-size: 1rem !important;
+    font-size: 2rem !important;
   }
   #sectionAbout div .photo-me {
     width: 10rem;
@@ -356,7 +356,7 @@ header .wave {
 .bg-contact {
   background-color: #c0fdff;
   width: 100%;
-  height: 110vh;
+  height: 100%;
 }
 .bg-contact .container-form {
   margin-top: 6rem;
@@ -435,11 +435,12 @@ header .wave {
   transform: scale(1.05);
   transition: transform 0.3s ease;
 }
-
-.copyright {
-  width: 100vw;
-  height: 10vh;
-  color: rgba(0, 0, 0, 0.6);
+.bg-contact .copyright {
+  background-color: black;
+  height: 3rem;
+}
+.bg-contact .copyright p {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
