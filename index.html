@@ -214,7 +214,8 @@
 
         <!-- CARDS -->
         <section class="container">
-            <h4 class="text-center tittle-cards" data-aos="fade-down" data-aos-duration="1000">Personas con las que trabajé dijeron algunas cosas</h4>
+            <h4 class="text-center tittle-cards" data-aos="fade-down" data-aos-duration="1000">Personas con las que
+                trabajé dijeron algunas cosas</h4>
             <div class="row">
                 <div class="col-6 d-flex justify-content-center"><img src="./src/multimedia/imagenes/pascal.png"
                         class="card-img-top w-25" alt="..."></div>
@@ -303,11 +304,15 @@
                             </nav>
                         </div>
                     </div>
-                    <div class="col-lg-6 w-form">
-                        <input class="input-name" type="text" placeholder="Nombre y Apellido">
-                        <input class="input-lastname" type="email" placeholder="E-mail">
-                        <textarea class="text-area" name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    </div>
+                    <form action="get" class="col-lg-6 w-form">
+                        <div>
+                            <input class="input-name" type="text" placeholder="Nombre y Apellido">
+                            <input class="input-lastname" type="email" placeholder="E-mail">
+                            <textarea class="text-area" name="" id="" cols="30" rows="10"
+                                placeholder="Mensaje"></textarea>
+                            <input class="button-talk-form" type="submit" value="Enviar">
+                        </div>
+                    </form>
                 </div>
                 <div style="height: 250px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
                         style="height: 100%; width: 100%;">
@@ -316,9 +321,6 @@
                     </svg>
                 </div>
             </div>
-        </section>
-        <section>
-            <div class="copyright"><p>Copyright © 2021 Julian Amorós | Desarrollador Web</p></div>
         </section>
     </footer>
 
