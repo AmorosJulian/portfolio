@@ -61,12 +61,10 @@
         opacity: 70%;
         box-shadow: 0 8PX 10PX -4PX nth($color, 9 );
         border: 1px solid nth($color, 13 );
-        border-radius: 0px;
     }
     .input-name::placeholder { color: nth($color, 15 ) }
     .input-lastname::placeholder { color: nth($color, 15 ) }
-    .text-area::placeholder { color: nth($color, 15 ) }
-    
+    .text-area::placeholder { color: nth($color, 15 ) }    
     
     .text-area {
         width: 100%;

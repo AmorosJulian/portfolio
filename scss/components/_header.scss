@@ -18,29 +18,18 @@ header {
             }
 
             nav {
-                font-size: .9rem;
-                height: 5rem;
+                height: 10vh;
+            }
 
-                .logo-width {
-                    width: 10%;
-                    margin-left: 3rem ;
-                }
 
-                .margin-link {
-                    padding-right: 2rem;
-                }
+            .name-list-link {
+                list-style: none;
+                text-decoration: none;
+            }
 
-                .color-nav {
-                    padding: 1rem !important;
-                    color: nth($color , 1) !important;
-                }
-
-                .color-nav:hover {
-                    opacity: 40%;
-                    border-bottom: 3px solid nth($color, 1)
-                }
-                    
-             }
+            .name-list {
+                padding: 1rem;
+            }
 
              .header-container {
                  height: 70vh;
