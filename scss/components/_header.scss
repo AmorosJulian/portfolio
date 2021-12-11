@@ -32,7 +32,7 @@ header {
 
                  h2 {
                      padding-top: 3.5rem;
-                     font-size: 1.1rem;
+                     font-size: 1.6rem;
                      font-weight: lighter;
                  }
              } 
@@ -47,5 +47,12 @@ header {
                 bottom: 0;
                 width: 100vw;
              }
+}
+
+// NAVBAR
+header nav {
+    background-color: nth($color, 16 );
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
